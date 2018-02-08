@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152c5e3a-16b4-49c4-9bb6-ce01cc5c1fc2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/frameworks.iml" afterPath="$PROJECT_DIR$/.idea/frameworks.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/.gitignore" afterPath="$PROJECT_DIR$/symfony.local/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/.idea/php.xml" afterPath="$PROJECT_DIR$/symfony.local/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/.idea/symfony.local.iml" afterPath="$PROJECT_DIR$/symfony.local/.idea/symfony.local.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/symfony.local/.idea/workspace.xml" afterPath="$PROJECT_DIR$/symfony.local/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/.htaccess" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/AppCache.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/AppKernel.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/Resources/views/base.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/Resources/views/default/index.html.twig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/config.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/config_dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/config_prod.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/config_test.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/parameters.yml.dist" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/routing.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/routing_dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/security.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/app/config/services.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/bin/console" afterPath="$PROJECT_DIR$/symfony.local/bin/console" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/bin/symfony_requirements" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/composer.json" afterPath="$PROJECT_DIR$/symfony.local/composer.json" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/composer.lock" afterPath="$PROJECT_DIR$/symfony.local/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/phpunit.xml.dist" afterPath="$PROJECT_DIR$/symfony.local/phpunit.xml.dist" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/src/.htaccess" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/src/AppBundle/AppBundle.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/src/AppBundle/Controller/DefaultController.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/tests/AppBundle/Controller/DefaultControllerTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/var/SymfonyRequirements.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/var/cache/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/var/logs/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/var/sessions/.gitkeep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/.htaccess" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/app.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/app_dev.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/config.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/symfony.local/web/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/symfony.local/config/routes.yaml" afterPath="$PROJECT_DIR$/symfony.local/config/routes.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -150,7 +111,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="frameworks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -186,17 +157,18 @@
       <option name="presentableId" value="Default" />
       <updated>1518087664224</updated>
       <workItem from="1518087666331" duration="3000" />
-      <workItem from="1518094543692" duration="117000" />
+      <workItem from="1518094543692" duration="1310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120000" />
+    <option name="totallyTimeSpent" value="1313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="28" width="1924" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1826411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1826411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
