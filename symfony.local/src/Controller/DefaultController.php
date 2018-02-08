@@ -21,7 +21,7 @@ class DefaultController extends Controller
         if (!$this->authenticateUser($request)) {
             return new Response('', 401);
         }
-        
+
     }
 
     /**
