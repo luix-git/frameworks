@@ -2,20 +2,29 @@
 
 namespace app\controllers;
 
-use yii\base\Controller;
+use yii\web\Controller;
 
 class MainController extends Controller
 {
+    public $layout = 'test';
+
     protected $users = [
         'admin' => '$2y$10$WI5Kx1dJWYCkv7owgeWY5eMy4H1T7R4kDRsPA/VBE1J0JulQhsq/2'
     ];
 
     public function actionIndex()
     {
-        if (!$this->authenticateUser()) {
-            \Yii::$app->response->statusCode = 401;
-            return null;
-        }
+//        if (!$this->authenticateUser()) {
+//            \Yii::$app->response->statusCode = 401;
+//            return null;
+//        }
+
+        include __DIR__ . '/../models/news.php';
+
+        return $this->render('index', [
+            'new_text' => 'New text!!!',
+            'news' => array_slice($news, -5)
+            ]);
     }
 
     /**

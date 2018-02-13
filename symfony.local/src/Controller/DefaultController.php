@@ -22,6 +22,10 @@ class DefaultController extends Controller
             return new Response('', 401);
         }
 
+//        return new Response();
+        return $this->render('base.html.twig', [
+            'user_name' =>  $request->headers->get('X-UserName')
+        ]);
     }
 
     /**
