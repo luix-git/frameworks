@@ -6,7 +6,9 @@ use yii\web\Controller;
 
 class MainController extends Controller
 {
-    public $layout = 'test';
+    public $layout = 'simple';
+
+    protected $articlesOnPage = -5;
 
     protected $users = [
         'admin' => '$2y$10$WI5Kx1dJWYCkv7owgeWY5eMy4H1T7R4kDRsPA/VBE1J0JulQhsq/2'
@@ -23,7 +25,7 @@ class MainController extends Controller
 
         return $this->render('index', [
             'new_text' => 'New text!!!',
-            'news' => array_slice($news, -5)
+            'news' => array_slice($news, $this->articlesOnPage)
             ]);
     }
 

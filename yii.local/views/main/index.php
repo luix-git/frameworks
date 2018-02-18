@@ -4,23 +4,25 @@
 
 $this->title = 'Hello';
 ?>
+<?php $this->beginBlock('select2') ?>
+<?php $this->endBlock() ?>
+
 <?php $this->beginBlock('footer') ?>
 <p class="pull-left"><?= date('d.m.Y') ?></p>
 <?php $this->endBlock() ?>
 
-<div class="site-index">
-    <div class="body-content">
-        <?php foreach (array_chunk($news, 3) as $articlesBlock): ?>
-            <div class="row">
-                <?php foreach ($articlesBlock as $article): ?>
-                    <div class="col-lg-4">
-                        <h2><?= $article['title'] ?? '' ?></h2>
-                        <img width="200" src="<?= $article['image'] ?? '' ?>">
-                        <h4><?= $article['subTitle'] ?? '' ?></h4>
-                        <p><?= $article['body'] ?? '' ?></p>
-                    </div>
-                <?php endforeach; ?>
-            </div>
+<script>
+    $(document).ready(function() {
+        $('.select2-container').select2();
+    });
+</script>
+
+<div class="s2-example">
+    <select class="form-control select2-container">
+        <?php foreach ($news as $article): ?>
+            <option><?= $article['title'] ?></option>
         <?php endforeach; ?>
-    </div>
+    </select>
 </div>
+
+<?= \app\widgets\News::widget(['news' => $news, 'width' => '250']); ?>
